@@ -3149,7 +3149,7 @@ input, select, textarea {
 				overflow-y: auto;
 				position: fixed;
 				top: 0;
-				width: 275px;
+				width: 400px;
 				z-index: 10002;
 			}
 
@@ -3275,7 +3275,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				height: 18em;
+				height: 14em;
 			}
 
 		/* Wrapper */

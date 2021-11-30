@@ -25,6 +25,15 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+lic {
+  	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 10%;
+	font: inherit;
+	vertical-align: baseline;}
+
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -2927,6 +2936,10 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 13pt;
 			}
+			
+			lic {
+				font-size: 11pt;
+			}
 
 			h1, h2, h3, h4, h5, h6 {
 				margin-bottom: 0.5em;
@@ -3149,7 +3162,7 @@ input, select, textarea {
 				overflow-y: auto;
 				position: fixed;
 				top: 0;
-				width: 400px;
+				width: 275px;
 				z-index: 10002;
 			}
 
@@ -3158,8 +3171,8 @@ input, select, textarea {
 					border-top: solid 1px rgba(255, 255, 255, 0.05);
 					color: #888;
 					display: block;
-					height: 48px;
-					line-height: 48px;
+					height: 50px;
+					line-height: 25px;
 					padding: 0 1em 0 1em;
 					text-decoration: none;
 				}
@@ -3275,7 +3288,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				height: 14em;
+				height: 18em;
 			}
 
 		/* Wrapper */
@@ -3331,7 +3344,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				height: 20em;
+				height: 12em;
 			}
 
 				#banner header {
